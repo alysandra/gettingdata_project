@@ -60,6 +60,7 @@ and were estimated from:
 - fBodyAccJerkMag
 - fBodyGyroMag
 - fBodyGyroJerkMag
+
 ---------------------------------------------------------------------------------------------------------------------
 
 The final data (tidy_data) holds 180 observations of 48 variables, and are sorted by firstly the index number of the subject, and secondarily the activity carried out. Which translates to measurements of the 30 participants, of each of the 6 activities that were recorded.
