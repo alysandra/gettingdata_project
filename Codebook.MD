@@ -36,16 +36,33 @@ For each record in the tidy data it is provided:
 The subjects are numbered 1-30, and are thus represented in the tables in such a form.
 
 ---------------------------------------------------------------------------------------------------------------------
-##Datasets
-Many data sets are created in the course of this project.
+Variables used were : 
 
-From the downloaded file [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
-There are 2 subfolders in the main folder of UCI HAR Dataset (which is the folder everything is drawn from)
-TEST : offers data for xtest, ytest and subtest
-TRAIN: offers data for xtrain, ytrain and subtrain
-"activity_labels" offer actlab, which is the description of the activity done
-"features" offer the column headings for the data
+mean(): Mean value
+std(): Standard deviation
 
+and were estimated from:
+
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 ---------------------------------------------------------------------------------------------------------------------
+
+The final data (tidy_data) holds 180 observations of 48 variables, and are sorted by firstly the index number of the subject, and secondarily the activity carried out. Which translates to measurements of the 30 participants, of each of the 6 activities that were recorded.
+_____________________________________________________________________________________________________________________
 The data was downloaded and accessed via RStudio. 
 All steps are listed and explained in the script. 
