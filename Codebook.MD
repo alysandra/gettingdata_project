@@ -38,8 +38,8 @@ The subjects are numbered 1-30, and are thus represented in the tables in such a
 ---------------------------------------------------------------------------------------------------------------------
 Variables used were : 
 
-mean(): Mean value
-std(): Standard deviation
+- mean(): Mean value
+- std(): Standard deviation
 
 and were estimated from:
 
